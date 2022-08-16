@@ -2,7 +2,7 @@
   "entrypoints": {
     "swiper": {
       "js": [
-        "/build/runtime.f4f17a19.js",
+        "/build/runtime.725dd7e0.js",
         "/build/swiper.c15126f0.js"
       ],
       "css": [
@@ -11,7 +11,7 @@
     },
     "app": {
       "js": [
-        "/build/runtime.f4f17a19.js",
+        "/build/runtime.725dd7e0.js",
         "/build/app.76314c44.js"
       ],
       "css": [
@@ -20,94 +20,108 @@
     },
     "jquery": {
       "js": [
-        "/build/runtime.f4f17a19.js",
-        "/build/611.7befb122.js",
-        "/build/715.f32f7e37.js",
-        "/build/176.4602427d.js",
+        "/build/runtime.725dd7e0.js",
+        "/build/975.305c7d91.js",
+        "/build/19.8e0b7c8a.js",
+        "/build/408.b60470c3.js",
         "/build/230.a3e7621e.js",
-        "/build/jquery.42fd3ba9.js"
+        "/build/jquery.c844714c.js"
       ]
     },
     "jscookie": {
       "js": [
-        "/build/runtime.f4f17a19.js",
-        "/build/611.7befb122.js",
-        "/build/715.f32f7e37.js",
-        "/build/jscookie.5e081223.js"
+        "/build/runtime.725dd7e0.js",
+        "/build/975.305c7d91.js",
+        "/build/19.8e0b7c8a.js",
+        "/build/jscookie.2564bc31.js"
       ]
     },
     "bootstrap": {
       "js": [
-        "/build/runtime.f4f17a19.js",
-        "/build/611.7befb122.js",
-        "/build/715.f32f7e37.js",
-        "/build/176.4602427d.js",
+        "/build/runtime.725dd7e0.js",
+        "/build/975.305c7d91.js",
+        "/build/19.8e0b7c8a.js",
+        "/build/408.b60470c3.js",
         "/build/180.bb684426.js",
         "/build/988.8331239c.js",
-        "/build/bootstrap.c1b841b6.js"
+        "/build/bootstrap.384dc1c7.js"
       ]
     },
     "vendor": {
       "js": [
-        "/build/runtime.f4f17a19.js",
-        "/build/611.7befb122.js",
-        "/build/715.f32f7e37.js",
-        "/build/176.4602427d.js",
+        "/build/runtime.725dd7e0.js",
+        "/build/975.305c7d91.js",
+        "/build/19.8e0b7c8a.js",
+        "/build/408.b60470c3.js",
         "/build/180.bb684426.js",
         "/build/988.8331239c.js",
-        "/build/vendor.4b6c5f5c.js"
+        "/build/vendor.fa5019d5.js"
       ]
     },
     "gsap": {
       "js": [
-        "/build/runtime.f4f17a19.js",
-        "/build/611.7befb122.js",
-        "/build/715.f32f7e37.js",
-        "/build/176.4602427d.js",
+        "/build/runtime.725dd7e0.js",
+        "/build/975.305c7d91.js",
+        "/build/19.8e0b7c8a.js",
+        "/build/408.b60470c3.js",
         "/build/180.bb684426.js",
         "/build/811.1b4a20bd.js",
-        "/build/gsap.87e088a3.js"
+        "/build/gsap.45a975b4.js"
       ]
     },
     "contact": {
       "js": [
-        "/build/runtime.f4f17a19.js",
+        "/build/runtime.725dd7e0.js",
         "/build/contact.83ca7092.js"
       ]
     },
     "slick": {
       "js": [
-        "/build/runtime.f4f17a19.js",
-        "/build/611.7befb122.js",
-        "/build/715.f32f7e37.js",
-        "/build/35.f2f125e8.js",
-        "/build/slick.2d1c67d1.js"
+        "/build/runtime.725dd7e0.js",
+        "/build/975.305c7d91.js",
+        "/build/19.8e0b7c8a.js",
+        "/build/897.4f4faf38.js",
+        "/build/slick.f7ea0678.js"
       ]
     },
     "modernizr": {
       "js": [
-        "/build/runtime.f4f17a19.js",
-        "/build/611.7befb122.js",
-        "/build/715.f32f7e37.js",
-        "/build/176.4602427d.js",
-        "/build/modernizr.0e15f872.js"
+        "/build/runtime.725dd7e0.js",
+        "/build/975.305c7d91.js",
+        "/build/19.8e0b7c8a.js",
+        "/build/408.b60470c3.js",
+        "/build/modernizr.325a0d86.js"
       ]
     },
     "tweenmax": {
       "js": [
-        "/build/runtime.f4f17a19.js",
-        "/build/611.7befb122.js",
-        "/build/715.f32f7e37.js",
-        "/build/176.4602427d.js",
+        "/build/runtime.725dd7e0.js",
+        "/build/975.305c7d91.js",
+        "/build/19.8e0b7c8a.js",
+        "/build/408.b60470c3.js",
         "/build/170.752ee2e3.js",
-        "/build/tweenmax.ac3b84dd.js"
+        "/build/tweenmax.3b53204d.js"
       ]
     },
     "main": {
       "js": [
-        "/build/runtime.f4f17a19.js",
-        "/build/611.7befb122.js",
-        "/build/main.0a901c17.js"
+        "/build/runtime.725dd7e0.js",
+        "/build/975.305c7d91.js",
+        "/build/main.68687cb1.js"
+      ]
+    },
+    "login": {
+      "js": [
+        "/build/runtime.725dd7e0.js",
+        "/build/login.5120b2b6.js"
+      ]
+    },
+    "search": {
+      "js": [
+        "/build/runtime.725dd7e0.js",
+        "/build/975.305c7d91.js",
+        "/build/19.8e0b7c8a.js",
+        "/build/search.a412c4b7.js"
       ]
     }
   }

@@ -33,6 +33,10 @@ Encore
     .addEntry('modernizr', './assets/js/modernizr.min.js')
     .addEntry('tweenmax', './assets/js/tweenmax.min.js')
     .addEntry('main', './assets/js/main.js')
+    .addEntry('login', './assets/login.js')
+    // .addEntry('admin', './assets/admin.js')
+    .addEntry('search', './assets/search.js')
+
 
 
     // When enabled, Webpack "splits" your files into smaller pieces for greater optimization.
@@ -83,3 +87,4 @@ Encore
 ;
 
 module.exports = Encore.getWebpackConfig();
+   
