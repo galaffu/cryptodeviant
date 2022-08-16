@@ -20,13 +20,20 @@ Encore
      * Each entry will result in one JavaScript file (e.g. app.js)
      * and one CSS file (e.g. app.css) if your JavaScript imports CSS.
      */
-    .addEntry('app', './assets/app.js')
-    .addEntry('login', './assets/login.js')
-    .addEntry('admin', './assets/admin.js')
-    .addEntry('search', './assets/search.js')
+    .addEntry('swiper', './assets/css/swiper.min.css')
 
-    // enables the Symfony UX Stimulus bridge (used in assets/bootstrap.js)
-    .enableStimulusBridge('./assets/controllers.json')
+    .addEntry('app', './assets/js/app.js')
+    .addEntry('jquery', './assets/js/jquery.js')
+    .addEntry('jscookie', './assets/js/js.cookie.js')
+    .addEntry('bootstrap', './assets/js/bootstrap.min.js')
+    .addEntry('vendor', './assets/js/vendor.js')
+    .addEntry('gsap', './assets/js/gsap.js')
+    .addEntry('contact', './assets/js/contactform.js')
+    .addEntry('slick', './assets/js/slick.min.js')
+    .addEntry('modernizr', './assets/js/modernizr.min.js')
+    .addEntry('tweenmax', './assets/js/tweenmax.min.js')
+    .addEntry('main', './assets/js/main.js')
+
 
     // When enabled, Webpack "splits" your files into smaller pieces for greater optimization.
     .splitEntryChunks()
@@ -69,14 +76,10 @@ Encore
 
     // uncomment to get integrity="..." attributes on your script & link tags
     // requires WebpackEncoreBundle 1.4 or higher
-    .enableIntegrityHashes(Encore.isProduction())
+    //.enableIntegrityHashes(Encore.isProduction())
 
     // uncomment if you're having problems with a jQuery plugin
-    .autoProvidejQuery()
-    .autoProvideVariables({
-        "window.Bloodhound": require.resolve('bloodhound-js'),
-        "jQuery.tagsinput": "bootstrap-tagsinput"
-    })
+    //.autoProvidejQuery()
 ;
 
 module.exports = Encore.getWebpackConfig();
