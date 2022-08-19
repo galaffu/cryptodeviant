@@ -26,7 +26,7 @@ use Symfony\Component\Validator\Constraints as Assert;
  * @author Javier Eguiluz <javier.eguiluz@gmail.com>
  */
 #[ORM\Entity]
-#[ORM\Table(name: 'symfony_demo_comment')]
+#[ORM\Table(name: 'Comments')]
 class Comment
 {
     #[ORM\Id]

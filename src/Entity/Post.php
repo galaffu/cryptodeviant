@@ -31,7 +31,7 @@ use Symfony\Component\Validator\Constraints as Assert;
  * @author Yonel Ceruto <yonelceruto@gmail.com>
  */
 #[ORM\Entity(repositoryClass: PostRepository::class)]
-#[ORM\Table(name: 'symfony_demo_post')]
+#[ORM\Table(name: 'Posts')]
 #[UniqueEntity(fields: ['slug'], errorPath: 'title', message: 'post.slug_unique')]
 class Post
 {
@@ -79,6 +79,12 @@ class Post
     #[ORM\OrderBy(['name' => 'ASC'])]
     #[Assert\Count(max: 4, maxMessage: 'post.too_many_tags')]
     private Collection $tags;
+
+    #[ORM\Column(type: 'string', length: 255)]
+    private $coverImage;
+
+    #[ORM\Column(type: 'boolean', nullable: true)]
+    private $isFeature;
 
     public function __construct()
     {
@@ -187,5 +193,29 @@ class Post
     public function getTags(): Collection
     {
         return $this->tags;
+    }
+
+    public function getCoverImage(): ?string
+    {
+        return $this->coverImage;
+    }
+
+    public function setCoverImage(string $coverImage): self
+    {
+        $this->coverImage = $coverImage;
+
+        return $this;
+    }
+
+    public function isIsFeature(): ?bool
+    {
+        return $this->isFeature;
+    }
+
+    public function setIsFeature(?bool $isFeature): self
+    {
+        $this->isFeature = $isFeature;
+
+        return $this;
     }
 }

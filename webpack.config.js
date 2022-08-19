@@ -34,7 +34,7 @@ Encore
     .addEntry('tweenmax', './assets/js/tweenmax.min.js')
     .addEntry('main', './assets/js/main.js')
     .addEntry('login', './assets/login.js')
-    // .addEntry('admin', './assets/admin.js')
+    .addEntry('admin', './assets/admin.js')
     .addEntry('search', './assets/search.js')
 
 
